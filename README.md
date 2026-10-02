@@ -31,3 +31,4 @@ The default slice size is `224x224`, which matches DINOv3 input.
 
 The two segmentation channels are infarct core and ischemic tissue. The mismatch ratio is computed as `area(ischemic tissue) / area(infarct core)`.
 
+TODO : This is the code version in my early experiment stage, and I am still working on the final version. Thanks for the understanding. 
