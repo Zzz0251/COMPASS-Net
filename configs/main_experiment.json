@@ -1,0 +1,20 @@
+{
+  "image_size": 224,
+  "batch_size": 4,
+  "epochs": 200,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "warmup_epochs": 10,
+  "num_workers": 4,
+  "ratio_threshold": 1.8,
+  "ratio_loss_weight": 0.2,
+  "segmentation_weight_start": 1.0,
+  "segmentation_weight_end": 0.5,
+  "diffusion_weight_start": 0.5,
+  "diffusion_weight_end": 1.0,
+  "diffusion_timesteps": 1000,
+  "sampling_timesteps": 100,
+  "save_every": 2020,
+  "seed": 42
+}
+
