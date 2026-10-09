@@ -4,15 +4,15 @@ This directory contains the main experimental pipeline for the paper Perfusion A
 
 The implementation uses:
 
-a locally loaded DINOv3 ViT-B/16 encoder;
+-- a locally loaded DINOv3 ViT-B/16 encoder;
 
-a ResUNet-style decoder with two output heads for infarct core and total ischemic tissue;
+-- a ResUNet-style decoder with two output heads for infarct core and total ischemic tissue;
 
-the mismatch-ratio classification and consistency constraint;
+-- the mismatch-ratio classification and consistency constraint;
 
-a segmentation-guided conditional diffusion auxiliary branch supervised by Tmax during training;
+-- a segmentation-guided conditional diffusion auxiliary branch supervised by Tmax during training;
 
-3D patient-level Dice evaluation, with penumbra derived as ischemic AND NOT infarct.
+-- 3D patient-level Dice evaluation, with penumbra derived as ischemic AND NOT infarct.
 
 
 Note: the code is prepared with the help of codex, so if you have any issue, please contact me for more precise details.
